@@ -1,5 +1,5 @@
 title: Power-grid frequency database
-repository: LRydin/Power-Grid-Frequency
+repository: HallahButt/PGF
 baseurl: /
 permalink: '/:title/'
 remote_theme: mmistakes/minimal-mistakes
