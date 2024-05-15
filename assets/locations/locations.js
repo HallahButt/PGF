@@ -1,5 +1,3 @@
----
----
 const locations = {
   type: 'FeatureCollection',
   features: [
