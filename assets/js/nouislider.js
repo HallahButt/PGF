@@ -3,7 +3,7 @@
     typeof define === 'function' && define.amd ? define(['exports'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.noUiSlider = {}));
 }(this, (function (exports) { 'use strict';
-
+ 
     exports.PipsMode = void 0;
     (function (PipsMode) {
         PipsMode["Range"] = "range";
