@@ -13,22 +13,22 @@ classes: wide
   <div id="slider"></div>
 </div>
 
-<script type="text/javascript" src="./assets/GeoJSON/WesternInterconnection.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/TexasInterconnection.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/NordicGrid.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Russian.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Baltic.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/NationalGrid.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/ContinentalEurope.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Irish.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Iceland.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Faroe.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Mallorca.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/GranCanaria.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/SouthAfrica.js"></script>
-<script type="text/javascript" src="./assets/GeoJSON/Japan.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/WesternInterconnection.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/TexasInterconnection.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/NordicGrid.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Russian.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Baltic.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/NationalGrid.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/ContinentalEurope.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Irish.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Iceland.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Faroe.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Mallorca.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/GranCanaria.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/SouthAfrica.js"></script>
+<script type="text/javascript" src="assets/GeoJSON/Japan.js"></script>
 
-<script src="./assets/locations/locations.js"></script>
+<script src="assets/locations/locations.js"></script>
 
 <script>
 
@@ -41,8 +41,8 @@ var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
 
 var LeafIcon = L.Icon.extend({
     options: {
-        iconUrl: './assets/js/images/marker-icon.png',
-        shadowUrl: './assets/js/images/marker-shadow.png',
+        iconUrl: 'assets/js/images/marker-icon.png',
+        shadowUrl: 'assets/js/images/marker-shadow.png',
         iconSize:    [25, 41],
     		iconAnchor:  [12, 41],
     		popupAnchor: [1, -34],
@@ -52,16 +52,16 @@ var LeafIcon = L.Icon.extend({
 });
 
 var blueIcon = new LeafIcon(),
-    greenIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-green.png'}),
-    purpleIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-purple%20copy.png'}),
-    greenpurpleIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-green-purple.png'}),
-    bluepurpleIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-blue-purple.png'}),
-    greenblueIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-green-blue.png'}),
-    yellowIcon = new LeafIcon({iconUrl: './assets/js/images/marker-icon-yellow.png'});
+    greenIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green.png'}),
+    purpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-purple%20copy.png'}),
+    greenpurpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green-purple.png'}),
+    bluepurpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-blue-purple.png'}),
+    greenblueIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green-blue.png'}),
+    yellowIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-yellow.png'});
 
 var yellowTarget = L.icon({
-    iconUrl: './assets/js/images/marker-target-yellow%20copy.png',
-    shadowUrl: './assets/js/images/marker-target-shadow.png',
+    iconUrl: 'assets/js/images/marker-target-yellow%20copy.png',
+    shadowUrl: 'assets/js/images/marker-target-shadow.png',
 		iconSize:    [25, 25],
 		iconAnchor:  [12, 12],
 		popupAnchor: [1, -14],
@@ -190,10 +190,10 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 10, 20, 50, 100, 200, 500, 1000],
         labels = [];
-    div.innerHTML = '<img id="x" src="/./assets/js/images/marker-icon-purple%20copy.png" width="20" height="20"/>' + '<h9>  Synchronous Measurements</h9></br>' +
-		'<img id="x" src="././assets/js/images/marker-icon-green.png" width="20" height="20"/>' + '<h9>  Standalone Measurements</h9></br>' +
-		'<img id="x" src="././assets/js/images/marker-icon.png" width="20" height="20"/>' + '<h9>  TSO Open Data Measurements</h9></br>'+
-		'<img id="x" src="/./assets/js/images/marker-icon-yellow.png" width="20" height="20"/>' + '/' + '<img id="x" src="/./assets/js/images/marker-target-yellow%20copy.png" width="30" height="30"/>' + '<h9>  Independent Measurements</h9>';
+    div.innerHTML = '<img id="x" src="/assets/js/images/marker-icon-purple%20copy.png" width="20" height="20"/>' + '<h9>  Synchronous Measurements</h9></br>' +
+		'<img id="x" src="./assets/js/images/marker-icon-green.png" width="20" height="20"/>' + '<h9>  Standalone Measurements</h9></br>' +
+		'<img id="x" src="./assets/js/images/marker-icon.png" width="20" height="20"/>' + '<h9>  TSO Open Data Measurements</h9></br>'+
+		'<img id="x" src="/assets/js/images/marker-icon-yellow.png" width="20" height="20"/>' + '/' + '<img id="x" src="/assets/js/images/marker-target-yellow%20copy.png" width="30" height="30"/>' + '<h9>  Independent Measurements</h9>';
     return div;
 };
 
