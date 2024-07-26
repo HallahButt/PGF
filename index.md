@@ -53,14 +53,14 @@ var LeafIcon = L.Icon.extend({
 
 var blueIcon = new LeafIcon(),
     greenIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green.png'}),
-    purpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-purple%20copy.png'}),
+    purpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-purple-copy.png'}),
     greenpurpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green-purple.png'}),
     bluepurpleIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-blue-purple.png'}),
     greenblueIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-green-blue.png'}),
     yellowIcon = new LeafIcon({iconUrl: 'assets/js/images/marker-icon-yellow.png'});
 
 var yellowTarget = L.icon({
-    iconUrl: 'assets/js/images/marker-target-yellow%20copy.png',
+    iconUrl: 'assets/js/images/marker-target-yellow-copy.png',
     shadowUrl: 'assets/js/images/marker-target-shadow.png',
 		iconSize:    [25, 25],
 		iconAnchor:  [12, 12],
@@ -190,10 +190,10 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0, 10, 20, 50, 100, 200, 500, 1000],
         labels = [];
-    div.innerHTML = '<img id="x" src="/assets/js/images/marker-icon-purple%20copy.png" width="20" height="20"/>' + '<h9>  Synchronous Measurements</h9></br>' +
+    div.innerHTML = '<img id="x" src="/assets/js/images/marker-icon-purple-copy.png" width="20" height="20"/>' + '<h9>  Synchronous Measurements</h9></br>' +
 		'<img id="x" src="./assets/js/images/marker-icon-green.png" width="20" height="20"/>' + '<h9>  Standalone Measurements</h9></br>' +
 		'<img id="x" src="./assets/js/images/marker-icon.png" width="20" height="20"/>' + '<h9>  TSO Open Data Measurements</h9></br>'+
-		'<img id="x" src="/assets/js/images/marker-icon-yellow.png" width="20" height="20"/>' + '/' + '<img id="x" src="/assets/js/images/marker-target-yellow%20copy.png" width="30" height="30"/>' + '<h9>  Independent Measurements</h9>';
+		'<img id="x" src="/assets/js/images/marker-icon-yellow.png" width="20" height="20"/>' + '/' + '<img id="x" src="/assets/js/images/marker-target-yellow-copy.png" width="30" height="30"/>' + '<h9>  Independent Measurements</h9>';
     return div;
 };
 
