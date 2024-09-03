@@ -19,7 +19,7 @@ classes: wide
   <iframe 
     width="100%" 
     height="100%" 
-    src="https://app.powerbi.com/reportEmbed?reportId=9c37f0ab-48da-4ee1-8546-f330b830b3ec&groupId=7068ef98-a139-4ad6-960a-77fa44621a39&autoAuth=true&ctid=YOUR_TENANT_ID" 
+    src="https://app.powerbi.com/view?r=eyJrIjoiZTFkN2U5MGQtZDY3Yi00NTM2LWI3MDEtYmY2OGI4ZmI3MzA5IiwidCI6IjYwYzliZjNkLWE2OGQtNDY2MS1hMTc0LTVhY2ZlZmVjMjY0NCIsImMiOjZ9" 
     frameborder="0" 
     allowFullScreen="true">
   </iframe>
