@@ -294,4 +294,30 @@ classes: wide
           },
         });
       }
+  // Your Power BI embed URL
+  var embedUrl = 'https://app.powerbi.com/groups/7068ef98-a139-4ad6-960a-77fa44621a39/reports/9c37f0ab-48da-4ee1-8546-f330b830b3ec/ReportSection3?experience=power-bi';
+  
+  // Your Embed Token (make sure to retrieve this securely from your backend)
+  var embedToken = 'YOUR_EMBED_TOKEN';
+  
+  // The configuration object for embedding the report
+  var config = {
+      type: 'report',
+      id: 'YOUR_REPORT_ID',
+      embedUrl: embedUrl,
+      accessToken: embedToken,
+      tokenType: models.TokenType.Embed,
+      permissions: models.Permissions.All,
+      settings: {
+          filterPaneEnabled: false,
+          navContentPaneEnabled: false
+      }
+  };
+
+  // Get a reference to the div where you want to embed the report
+  var reportContainer = document.getElementById('powerBiReportContainer');
+  
+  // Embed the report and store the instance
+  var report = powerbi.embed(reportContainer, config);
 </script>
+
