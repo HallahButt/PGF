@@ -18,12 +18,3 @@ The database and website are registered with [re3data.org](https://www.re3data.o
 <!-- External Power BI link if preferred outside of embedding -->
 [Here is the external Power BI link](https://app.powerbi.com/view?r=eyJrIjoiZGZkMzVhOTMtNDlkNS00ZjYwLTljMzAtYjcyZGJiZDNjNjE4IiwidCI6IjRmNWVlYzc1LTQ2ZmQtNDNmOC04ZDI0LTYyYmViZDk3NzFlNSIsImMiOjh9)
 
-### Interactive Dashboard
-<iframe title="Sample Power BI Dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8715a932-d1bd-4790-985c-5a2f342aba26&autoAuth=true&ctid=4f5eec75-46fd-43f8-8d24-62bebd9771e5" frameborder="0" allowFullScreen="true"></iframe>
-
-<!-- Logos section -->
-<img src="./assets/img/github_dark.png" width="90" height="90" border="20" class="center" />
-<img src="./assets/img/osf.png" width="90" height="90" border="20" class="center" />
-<img src="./assets/img/OPSD_logo.png" width="105" height="105" border="20" class="center" />
-<img src="./assets/img/re3data_logo.png" height="20" width="260" border="20" class="center" />
-<img src="./assets/img/h2020.png" height="20" width="480" border="20" class="center" />
