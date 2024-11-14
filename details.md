@@ -1,6 +1,6 @@
 ## Power-Grid Frequency Database
 
-Welcome to the Power-Grid Frequency Database. Here you can find recordings of power-grid frequency from across the globe, as well as interactive visualizations. [Here is the link to the Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTFkN2U5MGQtZDY3Yi00NTM2LWI3MDEtYmY2OGI4ZmI3MzA5IiwidCI6IjYwYzliZjNkLWE2OGQtNDY2MS1hMTc0LTVhY2ZlZmVjMjY0NCIsImMiOjZ9) for further insights.
+Welcome to the Power-Grid Frequency Database. Here you can find recordings of power-grid frequency from across the globe, as well as interactive visualizations. 
 
 This website is the front-end of the data repository [Open Access Power-Grid Frequency Database](https://osf.io/m43tg/), hosted in the [Open Science Framework](https://osf.io/). The [Power-Grid Frequency Database website](https://lrydin.github.io/Power-Grid-Frequency/) contains all the relevant information on the content of this database. You can find links to each dataset on the map above or in the [database](/database).
 
