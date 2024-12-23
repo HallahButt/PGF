@@ -16,5 +16,5 @@ We welcome everyone to contribute to this evolving database to support transpare
 The database and website are registered with [re3data.org](https://www.re3data.org/repository/r3d100013364).
 
 <!-- External Power BI link if preferred outside of embedding -->
-[Here is the external Power BI link](https://app.powerbi.com/view?r=eyJrIjoiZGZkMzVhOTMtNDlkNS00ZjYwLTljMzAtYjcyZGJiZDNjNjE4IiwidCI6IjRmNWVlYzc1LTQ2ZmQtNDNmOC04ZDI0LTYyYmViZDk3NzFlNSIsImMiOjh9)
+[Here is the external Power BI link](https://app.powerbi.com/reportEmbed?reportId=e53ad465-f223-4ecf-9b31-096c6e93459f&autoAuth=true&ctid=4f5eec75-46fd-43f8-8d24-62bebd9771e5)
 
