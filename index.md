@@ -116,7 +116,10 @@ const years = {
   "2018": L.layerGroup(),
   "2019": L.layerGroup(),
   "2020": L.layerGroup(),
-  "2021": L.layerGroup()
+  "2021": L.layerGroup(),
+  "2023": L.layerGroup(),
+  "2024": L.layerGroup(),
+  "2025": L.layerGroup()
 };
 
 L.geoJSON(locations, {
@@ -203,13 +206,13 @@ info.addTo(map);
 // Slider
 var slider = document.getElementById('slider');
 noUiSlider.create(slider, {
-    start: [2011, 2021], // Handle start position
+    start: [2011, 2025], // Handle start position
     connect: true, // Display a colored bar between the handles
     step: 1, // Steps shown, i.e., year by year
     behaviour: 'tap-drag', // Move handle on tap, bar is draggable
     range: { // Slider can select '0' to '100'
         'min': 2011,
-        'max': 2021
+        'max': 2025
     },
     pips: { // Show a scale with the slider
         mode: 'steps',
