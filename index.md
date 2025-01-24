@@ -12,9 +12,7 @@ classes: wide
   <div id="map" class="leafmap" style="border: 1px solid #ccc"></div>
   <div id="slider"></div>
 </div>
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 <script type="text/javascript" src="assets/GeoJSON/WesternInterconnection.js"></script>
 <script type="text/javascript" src="assets/GeoJSON/TexasInterconnection.js"></script>
 <script type="text/javascript" src="assets/GeoJSON/NordicGrid.js"></script>
@@ -240,3 +238,6 @@ slider.noUiSlider.on('update', function (values, handle) {
 
 
 {% include_relative details.md %}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
