@@ -35,7 +35,30 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(data => {
     console.log(data)
+<<<<<<< HEAD
     var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+=======
+    const years = {
+  "2011": L.layerGroup(),
+  "2012": L.layerGroup(),
+  "2013": L.layerGroup(),
+  "2014": L.layerGroup(),
+  "2015": L.layerGroup(),
+  "2016": L.layerGroup(),
+  "2017": L.layerGroup(),
+  "2018": L.layerGroup(),
+  "2019": L.layerGroup(),
+  "2020": L.layerGroup(),
+  "2021": L.layerGroup(),
+  "2022": L.layerGroup(),
+  "2023": L.layerGroup(),
+  "2024": L.layerGroup()
+};
+    })
+  .catch(error => console.error('Error:', error));
+
+var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+>>>>>>> 91110d5 (api call changes)
     'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Made with <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
     'minZoom': 2,
     'maxZoom': 19
@@ -108,22 +131,7 @@ L.geoJson(GranCanariaGeo, {style: style, onEachFeature: mouseOverFeature}).addTo
 L.geoJson(SouthAfricaGeo, {style: style, onEachFeature: mouseOverFeature}).addTo(map);
 L.geoJson(JapanGeo, {style: style, onEachFeature: mouseOverFeature}).addTo(map);
 
-const years = {
-  "2011": L.layerGroup(),
-  "2012": L.layerGroup(),
-  "2013": L.layerGroup(),
-  "2014": L.layerGroup(),
-  "2015": L.layerGroup(),
-  "2016": L.layerGroup(),
-  "2017": L.layerGroup(),
-  "2018": L.layerGroup(),
-  "2019": L.layerGroup(),
-  "2020": L.layerGroup(),
-  "2021": L.layerGroup(),
-  // "2022": L.layerGroup(),
-  // "2023": L.layerGroup(),
-  // "2024": L.layerGroup()
-};
+
 
 L.geoJSON(locations, {
     onEachFeature: iconBindPopup,
