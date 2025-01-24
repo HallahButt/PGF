@@ -33,8 +33,8 @@ classes: wide
 <script>
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
-  .then(data => {
-    console.log(data)
+  .then(json => {
+    console.log(json)
     const years = {
   "2011": L.layerGroup(),
   "2012": L.layerGroup(),
