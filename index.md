@@ -35,9 +35,6 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(data => {
     console.log(data)
-<<<<<<< HEAD
-    var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-=======
     const years = {
   "2011": L.layerGroup(),
   "2012": L.layerGroup(),
@@ -58,7 +55,6 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .catch(error => console.error('Error:', error));
 
 var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
->>>>>>> 91110d5 (api call changes)
     'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Made with <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
     'minZoom': 2,
     'maxZoom': 19
