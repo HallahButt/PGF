@@ -28,7 +28,7 @@ classes: wide
 <script type="text/javascript" src="assets/GeoJSON/SouthAfrica.js"></script>
 <script type="text/javascript" src="assets/GeoJSON/Japan.js"></script>
 
-<script src="/assets/locations/locations.js"></script>
+<script src="assets/locations/locations.js"></script>
 
 <script>
 
