@@ -117,9 +117,9 @@ const years = {
   "2019": L.layerGroup(),
   "2020": L.layerGroup(),
   "2021": L.layerGroup(),
-  "2023": L.layerGroup(),
-  "2024": L.layerGroup(),
-  "2025": L.layerGroup()
+  // "2022": L.layerGroup(),
+  // "2023": L.layerGroup(),
+  // "2024": L.layerGroup()
 };
 
 L.geoJSON(locations, {
