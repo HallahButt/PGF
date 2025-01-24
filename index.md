@@ -35,24 +35,14 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(json => {
     console.log(json)
-    const years = {
-  "2011": L.layerGroup(),
-  "2012": L.layerGroup(),
-  "2013": L.layerGroup(),
-  "2014": L.layerGroup(),
-  "2015": L.layerGroup(),
-  "2016": L.layerGroup(),
-  "2017": L.layerGroup(),
-  "2018": L.layerGroup(),
-  "2019": L.layerGroup(),
-  "2020": L.layerGroup(),
-  "2021": L.layerGroup(),
-  "2022": L.layerGroup(),
-  "2023": L.layerGroup(),
-  "2024": L.layerGroup()
-};
-    })
-  .catch(error => console.error('Error:', error));
+    var dummyJson=["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"]
+    dummyJson.forEach(setYears)
+    var yearJson = {};
+    function setYears(item, index){
+      yearJson[item] = L.layerGroup()
+    }
+    const years = yearJson;
+    console.log(years);    
 
 var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     'attribution': '&copy; <a href="https://osmlab.github.io/attribution-mark/copyright/?name={{ site.title }}">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Made with <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
